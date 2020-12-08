@@ -8,25 +8,7 @@ import com.epam.jwd.strategy.PerimeterStrategy;
 
 
 public class Main {
-
-    public static void meth(int var){
-        var = 5;
-        System.out.println(var);
-    }
-    interface test{
-        int a = 4;
-    }
-
-    public static String f(int a){
-        return a ==3 ? "3" : a == 4 ? "4" : "5";
-    }
-
     public static void main(String[] args) {
-        int var = 4;
-
-        
-        meth(var);
-        System.out.println("E: " + (var + var));
         Point[] points = new Point[6];
         points[0] = new Point(1, 2);
         points[1] = new Point(3, 4);
